@@ -1,8 +1,8 @@
 import express, { json } from "express";
 import "express-async-errors";
 import dotenv from "dotenv";
-import userRoutes from "routes/user.routes";
-import errorHandler from "middlewares/erros.middlewares";
+import userRoutes from "@/routes/user.routes";
+import errorHandler from "@/middlewares/erros.middlewares";
 
 dotenv.config();
 
