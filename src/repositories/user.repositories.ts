@@ -1,5 +1,5 @@
-import { db } from "@/database/databa.connection";
-import { CreateUser, User } from "@/protocols/protocols";
+import { db } from "../database/databa.connection";
+import { CreateUser, User } from "../protocols/protocols";
 
 async function create (user: CreateUser) {
     const createdUser = await db.query<CreateUser>(`

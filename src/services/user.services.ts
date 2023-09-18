@@ -1,5 +1,5 @@
-import { User } from "@/protocols/protocols";
-import userRepositories from "@/repositories/user.repositories";
+import { User } from "../protocols/protocols";
+import userRepositories from "../repositories/user.repositories";
 
 async function create (user: User) {
     return await userRepositories.create(user)

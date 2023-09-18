@@ -1,6 +1,6 @@
-import { badRequest, incompleteDataError } from "@/errors/errors";
-import { User } from "@/protocols/protocols";
-import userServices from "@/services/user.services";
+import { badRequest, incompleteDataError } from "../errors/errors";
+import { User } from "../protocols/protocols";
+import userServices from "../services/user.services";
 import { Request, Response } from "express";
 import httpStatus from "http-status";
 
